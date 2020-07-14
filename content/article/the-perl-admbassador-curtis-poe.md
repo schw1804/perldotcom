@@ -9,36 +9,19 @@
    "tags" : [
    ],
    "image" : "/images/the-perl-ambassador-curtis-poe/curtis-poe.jpg",
-   "description" : "The person behind the news of Perl",
+   "description" : "",
    "date" : "2020-07-15T07:30:00"
 }
 
-As a part of monthly series of interview, today we are talking to none
-other than **Curtis 'Ovid' Poe** himself. He is one of the tallest
-leader of Perl community.
+This month's interview victim is Curtis 'Ovid' Poe, one of the most-respected and well-known leaders in the Perl community.
 
-If you'd like me to interview you, or know someone you'd like me to
-interview, let me know. Take the same set of questions and send me your
-answers!
+Curtis has been building software for decades. He specializes in building database-driven websites through his global development and consulting firm, [All Around The World](https://allaroundtheworld.fr/). He's the main developer behind [Tau Station](https://taustation.space/), a text-based Massive Multiplayer Online Browser Game (MMOBG) set in a vibrant, far-future universe.
 
-**Curtis** has been building software for decades. He specialize in
-building database-driven Websites. He joined The Perl Foundation
-[boards of directors](https://news.perlfoundation.org/post/new_board_member)
-in 2009. He also runs the global global development and consulting firm,
-[All Around The World](https://allaroundtheworld.fr/).
+He's the author of [Beginning Perl](https://www.amazon.com/Beginning-Perl-Curtis-Poe/dp/1118013840/) and [Perl Hacks](https://www.amazon.com/Perl-Hacks-Programming-Debugging-Surviving/dp/0596526741/). You can out more about his activites at [https://ovid.github.io/](https://ovid.github.io/).
 
-He wrote some of the very popular books on Perl like
-[Beginning Perl](https://www.amazon.com/Beginning-Perl-Curtis-Poe/dp/1118013840/)
-and [Perl Hacks](https://www.amazon.com/Perl-Hacks-Programming-Debugging-Surviving/dp/0596526741/).
+He joined The Perl Foundation [boards of directors](https://news.perlfoundation.org/post/new_board_member) in 2009.
 
-He is also the man behind [Tau Station](https://taustation.space/),
-text-based Massive Multiplayer Online Browser Game (MMOBG) set in a
-vibrant far future universe.
-
-You can find him blogging [here](https://ovid.github.io/blog.html). If
-are interested in the technical blog then you please check out his
-[collections](https://ovid.github.io/articles.html). How about his
-[public speaking video](https://ovid.github.io/publicspeaking.html) as well.
+If you'd like me to interview you, or know someone you'd like me to interview, let me know. Take the same set of questions and send me your answers!
 
 \
 \
@@ -63,7 +46,7 @@ So long as we manage to protect businesses currently using Perl (and that means 
 
 #### What inspired you to start the project "Cor"? When are you planning to release it?
 
-First, for those who are not familiar with Cor, you can read about it at https://github.com/Ovid/Cor/wiki. In short, Cor is a plan to add modern OO to the Perl core. But the motto is "'Good enough' is not good enough." We have to stop settling for what we can have and start dreaming about what we want. For a trivial example, here's a naïve LRU cache implementation in Cor:
+First, for those who are not familiar with Cor, you can read about it [on its wiki](https://github.com/Ovid/Cor/wiki). In short, Cor is a plan to add modern OO to the Perl core. But the motto is "'Good enough' is not good enough." We have to stop settling for what we can have and start dreaming about what we want. For a trivial example, here's a naïve LRU cache implementation in Cor:
 
 ```perl
 class Cache::LRU {
